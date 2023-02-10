@@ -54,7 +54,7 @@ body {
     color:#4E6C50;
 }
 
-@media(max-width:600px) {
+@media(max-width:400px) {
     .content{
         margin-top: 40px;
         border: 2px solid red;

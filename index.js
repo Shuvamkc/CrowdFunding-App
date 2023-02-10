@@ -21,7 +21,9 @@ async function connect() {
     const accounts = await ethereum.request({ method: "eth_accounts" });
     console.log(accounts);
   } else {
-    document.getElementById("connectButton").innerText = "Install Metamask";
+    alert("Install metamask !");
+    document.getElementById("connectButton").value = "";
+    document.getElementById("connectButton").focus();
   }
 }
 
