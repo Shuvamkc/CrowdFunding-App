@@ -21,7 +21,7 @@ async function connect() {
     const accounts = await ethereum.request({ method: "eth_accounts" });
     console.log(accounts);
   } else {
-    alert("Install metamask !");
+    alert("Install metamask from https://metamask.io/download/!");
     document.getElementById("connectButton").value = "";
     document.getElementById("connectButton").focus();
   }
